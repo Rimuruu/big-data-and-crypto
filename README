@@ -1,0 +1,21 @@
+#Requirements
+- Java 8 ou 11
+- Hadoop 3.2.3
+- openssl pour le chiffrement côtés client.
+
+#Chargement de données
+
+hadoop fs -put DOSSIERDATASET/* /input
+
+
+#Lancer le pré-traitement chiffrement
+
+hadoop jar enc.jar Encrypt /input /output
+
+#Lancer la recherche du mot
+
+./search.sh
+
+
+
+Le dossier src contient les code source pour enc.jar, decrypt.jar et search.jar
