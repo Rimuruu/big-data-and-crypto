@@ -18,4 +18,4 @@ hadoop jar enc.jar Encrypt /input /output
 
 
 
-Le dossier src contient les code source pour enc.jar, decrypt.jar et search.jar
+Le dossier src contient les codes source pour enc.jar, decrypt.jar et search.jar
